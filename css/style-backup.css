@@ -1,63 +1,174 @@
+/* Universal Selector (*) - Selects all html elemets on a page*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*
+section, footer, aside, nav, article, figure {
+    display: block;
+}
+*/
 body {
     background-color: #d9dcd6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.header {
+
+h1 {
+    width: 30px;
+    margin:0;
+    background-color: yellow;
+    padding: 0;
+}
+
+
+h1 .seo {
+    color:red;
+    margin:0;
+    background-color: yellow;
+}
+
+
+/*
+header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    border: 10px solid yellow;
+    }
+
+  Begin navigation bar styling. */
+
+nav {
+        margin:0;
+        text-align: right;
+        padding: 0;
+        width:70%;
+        margin: 0;
+        background-color: blue;
+        float: right;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
+nav ui{
+    padding:0;
+}
+ 
+nav li {
+   display:inline;
+   padding:0;
+   text-align: center;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
+nav li a{
+    display:inline;
+    padding:0px 0px 0px 0px;
+    text-align: center;
     text-decoration: none;
+    color: orangered
 }
 
-p {
-    font-size: 16px;
+nav li a:hover, nav li a.current {
+    color: #c00;
+    text-align:center;
+    background-color: #fff;
 }
 
-.hero {
-    height: 800px;
+
+.wrapper {
+    width: 100%;
+    border: 10px solid red;
+
+
+  /* End navigation bar styling. */
+
+.bigimage{
+   
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("\images\digital-marketing-meeting.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border: 10px solid orchid;
+  }
+
+article {
+    border: 10px solid rgb(0, 128, 58);
+    padding:10px solid color blue;
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+}
+
+figure {
+    height: 200px;
+    width: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid blueviolet;
+}
+
+.one{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+aside {
+    text-align: center;
+    width: 350px;
+    height: 1100px;
+    padding:10px 10px 10px 10px;
+    border: 10px solid #000000;
+    float:right;
+    background-color: yellow;
+}
+
+section {
+    padding:30px 10px 30px 10px;
+    border: 10px solid #000000;
+}
+
+footer p, h2 {
+    text-align: center;
+}
+/*
+@media (max-width: 620px) {
+
+    header
+    header nav,
+    header nav li{
+        float:none
+        text-align:center
+        width:100%
+    }
+
+
+
+heroclass {
+    height: auto;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+
+*/
+
+
+/*
 
 .float-left {
     float: left;
@@ -198,3 +309,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+*/

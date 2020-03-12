@@ -1,0 +1,158 @@
+/* Universal Selector (*) - Selects all html elemets on a page*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;    
+}
+
+/* Header */
+
+header {
+    margin:0px;
+    padding: 50px;
+    background-color: slategrey;  
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px;
+}
+
+header ul {
+    margin:0px;
+    padding:0px;
+    /*list-style-type: none;*/
+}
+
+header li {
+    display:inline;
+    padding:0px;
+    margin:0px;
+    color: orange;
+    padding:0px 10px 0px 10px;
+}
+
+header #branding {
+    float: left;
+}
+
+
+header #first h1 {
+    margin:0px;
+    padding:0px;
+        
+}
+
+header h1 {
+    color:blue;
+    padding:0px;
+    margin:0px;       
+}
+ 
+
+h1 .seo {
+    color:red;
+    margin:0;
+    padding:0;
+}
+
+header nav {
+    float:right; 
+    background-color: slateblue;
+    padding:0px;
+    margin:0px;
+}
+
+header nav li a:hover, nav li a.current {
+    color: #c00;
+    text-align:center;
+}
+
+/* Content */
+
+#bigimage {
+    min-height:500px;
+    width:100%
+}
+
+.digital-image {
+    padding-bottom: 20px;
+}
+
+aside {
+    text-align: center;
+    width: 20%;
+    height: 940px;
+    padding:20px 20px 20px 20px;
+    float:right;
+    background-color: yellow;
+    margin:20px;
+}
+
+.benefit-brand {
+    padding:30px;
+}
+
+article {
+    width:75%;
+    height:300px;
+    padding: 20px;
+    margin:20px;
+       
+}
+
+article h2  {
+    padding: 15px;
+    margin:30px;
+    text-align: left;
+}
+
+.search {
+    background-color:  #0072bb;
+}
+
+.onlinea {
+    background-color:  red;
+}
+
+.social {
+    background-color:  #0072bb;
+}
+
+#search-image {
+    float:left;
+    margin-right: 25px;
+    padding:20px
+}
+
+#online-image {
+    float:right;
+    margin-right: 25px;
+    padding:20px
+}
+
+#social-image {
+    float:left;
+    margin-right: 25px;
+    padding:20px
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(0, 255, 157);
+}
+
+footer p, h2 {
+    text-align: center;
+    margin-right: 25px;
+    padding:0px;    
+}
