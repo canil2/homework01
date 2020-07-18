@@ -1,3 +1,3 @@
 # homework01 - Code Refactor
 
-This is a code refactor assignment 012344
+This is a code refactor assignment 6
